@@ -27,6 +27,6 @@ def find_valid_calls(planeteer_calls)
       if planeteer_calls.include?(string)
        return  string
       end
-    return nil
-  end
+    end
+  return nil
 end
